@@ -1,0 +1,31 @@
+<svg width="700" height="230" viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Fira Code',Consolas,monospace">
+  <defs>
+    <linearGradient id="qfBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#FF6584"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="692" height="222" rx="18" fill="none" stroke="url(#qfBorder)" stroke-width="2.5" opacity="0.85"/>
+  <rect x="8" y="8" width="684" height="214" rx="15" fill="#0D1117"/>
+
+  <rect x="8" y="8" width="684" height="42" rx="15" fill="#161B22"/>
+  <rect x="8" y="35" width="684" height="15" fill="#161B22"/>
+  <circle cx="34" cy="29" r="6" fill="#FF5F56"/>
+  <circle cx="54" cy="29" r="6" fill="#FFBD2E"/>
+  <circle cx="74" cy="29" r="6" fill="#27C93F"/>
+  <text x="350" y="34" fill="#8B949E" font-size="13" text-anchor="middle">aarushi@github: ~/quick-facts</text>
+
+  <text x="30" y="80" font-size="15">
+    <tspan fill="#3FB950">➜</tspan>
+    <tspan fill="#79C0FF" dx="8">~</tspan>
+    <tspan fill="#C9D1D9" dx="8">cat quick_facts.yaml</tspan>
+  </text>
+
+  <g font-size="14.5">
+    <text x="30" y="114"><tspan font-size="16">🎓</tspan><tspan fill="#FF6584" dx="10">education</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#C9D1D9" dx="8">Computer Science @ Guru Nanak Dev University, Amritsar</tspan></text>
+    <text x="30" y="146"><tspan font-size="16">🧠</tspan><tspan fill="#79C0FF" dx="10">interests</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#C9D1D9" dx="8">AI/ML • LLMs • RAG • Recommendation Systems</tspan></text>
+    <text x="30" y="178"><tspan font-size="16">🛠️</tspan><tspan fill="#3FB950" dx="10">dev_stack</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#C9D1D9" dx="8">Python • React • Next.js • FastAPI • PyTorch</tspan></text>
+    <text x="30" y="210"><tspan font-size="16">🚀</tspan><tspan fill="#FFBD2E" dx="10">mode</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#C9D1D9" dx="8">always building, always learning</tspan></text>
+  </g>
+</svg>
