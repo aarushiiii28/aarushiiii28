@@ -1,0 +1,44 @@
+<svg width="700" height="280" viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="pjBorder2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6584"/>
+      <stop offset="100%" stop-color="#6C63FF"/>
+    </linearGradient>
+    <linearGradient id="pjBar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6584"/>
+      <stop offset="100%" stop-color="#6C63FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="3" y="3" width="694" height="274" rx="16" fill="none" stroke="url(#pjBorder2)" stroke-width="2" opacity="0.8"/>
+  <rect x="6" y="6" width="688" height="268" rx="14" fill="#0D1117"/>
+  <rect x="6" y="6" width="8" height="268" fill="url(#pjBar2)"/>
+
+  <text x="42" y="52" font-size="14" fill="#8B949E" letter-spacing="2">FEATURED PROJECT</text>
+
+  <text x="42" y="88" font-size="26" font-weight="700" fill="#FFFFFF">TalkSense</text>
+  <text x="42" y="114" font-size="15.5" fill="#79C0FF" font-weight="600">NLP-based sentiment &amp; emotion analyzer</text>
+
+  <g font-size="14.5" fill="#C9D1D9">
+    <text x="42" y="150">Detects emotions in text messages — positivity, stress,</text>
+    <text x="42" y="174">sadness, and more — using machine learning, with a</text>
+    <text x="42" y="198">Streamlit dashboard for real-time analysis.</text>
+  </g>
+
+  <g font-size="12.5" font-weight="600">
+    <rect x="42" y="216" width="30" height="26" rx="13" fill="#1F2937" stroke="#B983FF" opacity="0"/>
+    <rect x="42" y="216" width="60" height="26" rx="13" fill="#1F2937" stroke="#B983FF"/>
+    <text x="72" y="233" text-anchor="middle" fill="#D2B3FF">NLP</text>
+
+    <rect x="112" y="216" width="118" height="26" rx="13" fill="#1F2937" stroke="#6C63FF"/>
+    <text x="171" y="233" text-anchor="middle" fill="#B0A9FF">Machine Learning</text>
+
+    <rect x="240" y="216" width="150" height="26" rx="13" fill="#1F2937" stroke="#3FB950"/>
+    <text x="315" y="233" text-anchor="middle" fill="#7EE787">Sentiment Analysis</text>
+
+    <rect x="400" y="216" width="94" height="26" rx="13" fill="#1F2937" stroke="#FFBD2E"/>
+    <text x="447" y="233" text-anchor="middle" fill="#FFD778">Streamlit</text>
+  </g>
+
+  <text x="42" y="262" font-size="14" fill="#79C0FF" font-weight="600">↗ github.com/aarushiiii28/TalkSense</text>
+</svg>
