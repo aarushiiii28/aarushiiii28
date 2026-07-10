@@ -1,0 +1,55 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <filter id="blurBig" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="blurMed" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="260" fill="#05060A"/>
+
+  <!-- aura blobs -->
+  <circle cx="150" cy="60" r="130" fill="#6C63FF" opacity="0.55" filter="url(#blurBig)"/>
+  <circle cx="760" cy="210" r="140" fill="#FF6584" opacity="0.5" filter="url(#blurBig)"/>
+  <circle cx="450" cy="230" r="100" fill="#4FACFE" opacity="0.35" filter="url(#blurBig)"/>
+  <circle cx="700" cy="40" r="80" fill="#B983FF" opacity="0.4" filter="url(#blurMed)"/>
+  <circle cx="120" cy="220" r="70" fill="#FF9F6C" opacity="0.3" filter="url(#blurMed)"/>
+
+  <!-- scattered stars -->
+  <g fill="#FFFFFF">
+    <circle cx="60" cy="35" r="1.4" opacity="0.8"/>
+    <circle cx="820" cy="70" r="1.6" opacity="0.7"/>
+    <circle cx="500" cy="30" r="1.2" opacity="0.6"/>
+    <circle cx="300" cy="210" r="1.4" opacity="0.7"/>
+    <circle cx="650" cy="160" r="1.2" opacity="0.5"/>
+    <circle cx="180" cy="130" r="1.3" opacity="0.6"/>
+    <circle cx="850" cy="190" r="1.5" opacity="0.6"/>
+    <circle cx="40" cy="180" r="1.2" opacity="0.5"/>
+  </g>
+
+  <rect width="900" height="260" fill="url(#vignette)"/>
+
+  <!-- main text -->
+  <text x="450" y="125" text-anchor="middle" font-size="46" font-weight="700" fill="#FFFFFF" filter="url(#textGlow)">
+    Hi there, I'm Aarushi
+  </text>
+  <text x="450" y="168" text-anchor="middle" font-size="20" font-weight="400" fill="#D8D9E8">
+    building AI that solves real-world problems
+  </text>
+
+  <!-- thin accent rule -->
+  <rect x="390" y="188" width="120" height="3" rx="1.5" fill="#FF6584" opacity="0.9"/>
+</svg>
