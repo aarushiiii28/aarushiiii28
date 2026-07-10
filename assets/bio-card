@@ -1,0 +1,42 @@
+<svg width="700" height="230" viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bioBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#FF6584"/>
+    </linearGradient>
+    <filter id="quoteGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect x="3" y="3" width="694" height="224" rx="16" fill="none" stroke="url(#bioBorder)" stroke-width="2" opacity="0.8"/>
+  <rect x="6" y="6" width="688" height="218" rx="14" fill="#0D1117"/>
+
+  <!-- decorative giant quote mark -->
+  <text x="28" y="90" font-size="90" font-weight="700" fill="#6C63FF" opacity="0.28" filter="url(#quoteGlow)">&#8220;</text>
+
+  <!-- main lines -->
+  <g font-size="21" font-weight="600">
+    <text x="70" y="70">
+      <tspan fill="#E6E6EF">I don't just train models</tspan>
+      <tspan fill="#8B949E"> — </tspan>
+      <tspan fill="#FF6584">I make them earn their keep.</tspan>
+    </text>
+    <text x="70" y="108">
+      <tspan fill="#E6E6EF">Turning </tspan>
+      <tspan fill="#FFBD2E">late-night curiosity</tspan>
+      <tspan fill="#E6E6EF"> into AI</tspan>
+    </text>
+    <text x="70" y="140">
+      <tspan fill="#E6E6EF">people </tspan>
+      <tspan fill="#3FB950">actually want to use.</tspan>
+    </text>
+  </g>
+
+  <!-- divider -->
+  <line x1="70" y1="164" x2="630" y2="164" stroke="#21262D" stroke-width="1.5"/>
+
+  <!-- personality pill -->
+  <rect x="70" y="182" width="290" height="30" rx="15" fill="#161B22" stroke="#6C63FF" stroke-width="1"/>
+  <text x="215" y="202" text-anchor="middle" font-size="13.5" font-weight="500" fill="#B983FF">🦂 night-owl coder · 2am commits included</text>
+</svg>
