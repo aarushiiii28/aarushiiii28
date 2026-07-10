@@ -1,0 +1,44 @@
+<svg width="700" height="310" viewBox="0 0 700 310" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="pjBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#FF6584"/>
+    </linearGradient>
+    <linearGradient id="pjBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#FF6584"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="3" y="3" width="694" height="304" rx="16" fill="none" stroke="url(#pjBorder)" stroke-width="2" opacity="0.8"/>
+  <rect x="6" y="6" width="688" height="298" rx="14" fill="#0D1117"/>
+  <rect x="6" y="6" width="8" height="298" fill="url(#pjBar)"/>
+
+  <text x="42" y="52" font-size="14" fill="#8B949E" letter-spacing="2">FEATURED PROJECT</text>
+
+  <text x="42" y="88" font-size="26" font-weight="700" fill="#FFFFFF">RoomSync</text>
+  <text x="42" y="114" font-size="15.5" fill="#FF6584" font-weight="600">AI-powered roommate intelligence system</text>
+
+  <g font-size="14.5" fill="#C9D1D9">
+    <text x="42" y="150">Analyzes behavioral, lifestyle, and personality patterns to</text>
+    <text x="42" y="174">predict compatibility, detect potential conflicts, and</text>
+    <text x="42" y="198">recommend ideal roommates — with explainable insights</text>
+    <text x="42" y="222">powered by ML, clustering, and LLM-based NLU.</text>
+  </g>
+
+  <g font-size="12.5" font-weight="600">
+    <rect x="42" y="242" width="118" height="26" rx="13" fill="#1F2937" stroke="#6C63FF"/>
+    <text x="101" y="259" text-anchor="middle" fill="#B983FF">Machine Learning</text>
+
+    <rect x="170" y="242" width="90" height="26" rx="13" fill="#1F2937" stroke="#FF6584"/>
+    <text x="215" y="259" text-anchor="middle" fill="#FF9FB4">Clustering</text>
+
+    <rect x="270" y="242" width="150" height="26" rx="13" fill="#1F2937" stroke="#3FB950"/>
+    <text x="345" y="259" text-anchor="middle" fill="#7EE787">Recommender Systems</text>
+
+    <rect x="430" y="242" width="90" height="26" rx="13" fill="#1F2937" stroke="#FFBD2E"/>
+    <text x="475" y="259" text-anchor="middle" fill="#FFD778">LLM / NLU</text>
+  </g>
+
+  <text x="42" y="292" font-size="14" fill="#79C0FF" font-weight="600">↗ github.com/aarushiiii28/RoomSync</text>
+</svg>
